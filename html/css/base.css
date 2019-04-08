@@ -14,7 +14,7 @@ h1 {
 }
 
 h3 {
-    border: #005baa;
+    border: #CCCCCC;
     border-bottom-style: solid;
     border-width: 1px;
 
@@ -46,8 +46,9 @@ ul {
 .nav li a{
     float: left;
     margin: 0;
-    border: #333333 solid 1px;
-    box-sizing:border-box;
+    border-left: #FFFFFF solid 1px;
+    border-top: #FFFFFF solid 1px;
+    box-sizing: border-box;
     padding: 6px 0px;
     background: #111111;
     color: #FFFFFF;
@@ -70,4 +71,5 @@ ul {
     list-style-type: none;
     overflow: hidden;
     flex-wrap: wrap;
+    border-right: #FFFFFF solid 1px;
 }
