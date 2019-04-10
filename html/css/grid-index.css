@@ -1,0 +1,38 @@
+/* ---------- グリッド ---------- */
+body {
+    display: grid;
+	grid-template-areas:
+		"head head"
+		"side main"
+		"foot foot";
+    grid-template-columns: 256px 1fr;
+}
+.title	    {grid-area: head;}
+.menu	    {grid-area: side;}
+.content    {grid-area: main; min-height: 80vh;}
+.copyright	{grid-area: foot;}
+
+/* ---------- 600～999px ---------- */
+/*@media (min-width: 600px) and (max-width: 999px) {
+    body {
+        grid-template-areas:
+            "head head"
+            "main side"
+            "foot foot";
+        grid-template-columns: 1fr 1fr;
+    }
+}
+/**/
+
+/* ---------- 599px以下 ---------- */
+@media (max-width: 599px) {
+    body{
+        grid-template-areas:
+            "head"
+            "side"
+            "main"
+            "foot";
+        grid-template-columns: 1fr;
+    }
+    .content {min-height: auto;}
+}
