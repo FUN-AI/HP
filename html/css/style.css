@@ -63,7 +63,7 @@ ul {
 .content {
     border: solid #111111 2px;
     border-radius: 5px;
-    margin: 0px 2% 2px;
+    margin: 0px 2% 12px;
     padding: 20px;
     background-color: #EFEFEF;
     background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, #CAE9FF), color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, #CAE9FF),color-stop(.75, #CAE9FF), color-stop(.75, transparent),to(transparent));
@@ -71,7 +71,7 @@ ul {
 }
 @media (min-width: 600px) {
     .content {
-        margin: 0px 2% 2px 0px;
+        margin: 0px 2% 8px 0px;
     }
 }
 
