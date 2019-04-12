@@ -2,8 +2,6 @@ body {
     margin: 0;
     font-family: 'Source Sans Pro', '????', 'Hiragino Kaku Gothic Pro', sans-serif;
     background-color: #EFEFEF;
-   /* background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, #CAE9FF), color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, #CAE9FF),color-stop(.75, #CAE9FF), color-stop(.75, transparent),to(transparent));
-    -webkit-background-size: 7px 7px;*/
 }
 
 h1 {
@@ -72,7 +70,7 @@ ul {
     margin: 0px 2% 12px;
     padding: 20px;
 }
-@media (min-width: 600px) {
+@media (min-width: 1000px) {
     .content {
         margin: 0px 2% 8px 0px;
     }

@@ -19,9 +19,8 @@ body {
         grid-template-areas:
             "head head"
             "side main"
-	    "guid main"
             "foot foot";
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 256px 1fr;
     }
 }
 
@@ -32,7 +31,6 @@ body {
             "head"
             "side"
             "main"
-	    "guid"
             "foot";
         grid-template-columns: 1fr;
     }
