@@ -2,8 +2,8 @@ body {
     margin: 0;
     font-family: 'Source Sans Pro', '????', 'Hiragino Kaku Gothic Pro', sans-serif;
     background-color: #EFEFEF;
-    background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, #CAE9FF), color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, #CAE9FF),color-stop(.75, #CAE9FF), color-stop(.75, transparent),to(transparent));
-    -webkit-background-size: 7px 7px;
+   /* background-image: -webkit-gradient(linear, 0 0, 100% 100%,color-stop(.25, #CAE9FF), color-stop(.25, transparent),color-stop(.5, transparent), color-stop(.5, #CAE9FF),color-stop(.75, #CAE9FF), color-stop(.75, transparent),to(transparent));
+    -webkit-background-size: 7px 7px;*/
 }
 
 h1 {
@@ -60,6 +60,10 @@ ul {
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     transition: all  0.3s ease;
+}
+
+.guide {
+    background: #111111;
 }
 
 .content {
