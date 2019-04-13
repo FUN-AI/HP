@@ -60,6 +60,28 @@ ul {
     transition: all  0.3s ease;
 }
 
+.content a {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content li {
+    margin: 0px 0px;
+}
+
+.content ul {
+    margin: 0em 1em 2em;
+}
+
+.content h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content p {
+    margin: 0em 1em 1em;    
+}
+
 .guide {
     background: #111111;
 }
@@ -70,7 +92,7 @@ ul {
     margin: 0px 2% 12px;
     padding: 20px;
 }
-@media (min-width: 1000px) {
+@media (min-width: 600px) {
     .content {
         margin: 0px 2% 8px 0px;
     }
@@ -79,6 +101,10 @@ ul {
 .content img {
     max-width: 100%;
     height: auto;
+    margin: 16px 0px;
+    border: #111111 solid 1px;
+    box-sizing: border-box;
+    border-radius: 5px;
 }
 
 .copyright {

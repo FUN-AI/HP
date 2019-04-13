@@ -17,10 +17,10 @@ body {
 @media (min-width: 600px) and (max-width: 999px) {
     body {
         grid-template-areas:
-            "head head"
-            "side main"
-            "foot foot";
-        grid-template-columns: 256px 1fr;
+            "head head head"
+            "side main guid"
+            "foot foot foot";
+        grid-template-columns: 256px 1fr 0px;
     }
 }
 
@@ -28,11 +28,11 @@ body {
 @media (max-width: 599px) {
     body{
         grid-template-areas:
-            "head"
-            "side"
-            "main"
-            "foot";
-        grid-template-columns: 1fr;
+            "head head"
+            "side side"
+            "main guid"
+            "foot foot";
+        grid-template-columns: 1fr 0px;
     }
     .content {min-height: auto;}
 }
