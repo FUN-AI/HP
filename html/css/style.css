@@ -1,0 +1,118 @@
+body {
+    margin: 0;
+    font-family: 'Source Sans Pro', '????', 'Hiragino Kaku Gothic Pro', sans-serif;
+    background-color: #EFEFEF;
+}
+
+h1 {
+    margin: 0px;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+h4 {
+    margin: 0px;
+}
+
+ul {
+     list-style-type: none;
+     padding: 0px;
+     margin: 0px 0px 2em;
+}
+
+.title {
+    margin: 12px 32px 4px;
+}
+
+.menu {
+    padding: 0px;
+    text-align: center;
+}
+
+.menu li {
+    text-align: center;
+    height: 48px;
+    border: solid #111111 2px;
+    border-radius: 5px;
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.menu a {
+    font-weight: bold;
+    text-decoration: none;
+    color: #111111;
+    display: table;
+    width: 96%;
+    margin: 0px 2% 1px;
+}
+
+.menu a:hover{
+    background: #111111;
+    border-radius: 5px;
+    color: #EFEFEF;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all  0.3s ease;
+}
+
+.content a {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content li {
+    margin: 0px 0px;
+}
+
+.content ul {
+    margin: 0em 1em 2em;
+}
+
+.content h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.content p {
+    margin: 0em 1em 1em;    
+}
+
+.guide {
+    background: #111111;
+}
+
+.content {
+    border: solid #111111 2px;
+    border-radius: 5px;
+    margin: 0px 2% 12px;
+    padding: 20px;
+}
+@media (min-width: 600px) {
+    .content {
+        margin: 0px 2% 8px 0px;
+    }
+}
+
+.content img {
+    max-width: 100%;
+    height: auto;
+    margin: 16px 0px;
+    border: #111111 solid 1px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.copyright {
+    background: #111111;
+    color: #EFEFEF;
+    text-align: center;
+    height: 48px;
+    width: 100%;
+    bottom: 0px;
+    position: relative;
+}
