@@ -1,4 +1,4 @@
-/* ---------- グリッド ---------- */
+﻿/* ---------- グリッド ---------- */
 body {
     display: grid;
 	grid-template-areas:
@@ -34,6 +34,7 @@ body {
             "foot foot";
         grid-template-columns: 1fr 0px;
     }
-    .menu {height: 150px;}
+    .menu {height: 182px;}
+    .menu::-webkit-scrollbar {display: none;}
     .content {min-height: auto;}
 }
