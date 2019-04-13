@@ -34,5 +34,6 @@ body {
             "foot foot";
         grid-template-columns: 1fr 0px;
     }
+    .menu {height: 150px;}
     .content {min-height: auto;}
 }
