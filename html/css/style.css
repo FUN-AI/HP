@@ -87,7 +87,7 @@ ul {
 }
 
 .content img {
-    max-width: 100%;
+    width: 100%;
     height: auto;
     margin: 16px 0px;
     border: #111111 solid 1px;
