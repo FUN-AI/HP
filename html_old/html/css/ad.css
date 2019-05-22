@@ -13,10 +13,3 @@
     left: 0;
     margin: auto;
 }
-/*
-#ad01 { visibility: hidden;}
-#ad02 { visibility: hidden;}
-
-:root{--adv: 256px;}
-@media (width: var(--adv)){ #ad01 {visibility: visible;}}
-*/

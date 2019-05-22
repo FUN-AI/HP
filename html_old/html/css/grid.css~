@@ -1,4 +1,16 @@
-﻿/* ---------- グリッド ---------- */
+﻿.content {
+    border: solid #111111 2px;
+    border-radius: 5px;
+    margin: 0px 2% 12px;
+    padding: 20px;
+}
+@media (min-width: 600px) {
+    .content {
+        margin: 0px 2% 8px 0px;
+    }
+}
+
+/* ---------- グリッド ---------- */
 body {
     display: grid;
 	grid-template-areas:
@@ -6,10 +18,12 @@ body {
 		"side main guid"
 		"foot foot foot";
     grid-template-columns: 256px 1fr 256px;
+    grid-template-rows: auto 1fr 48px;
+    height: 100%;
 }
 .title	    {grid-area: head;}
 .menu	    {grid-area: side;}
-.content    {grid-area: main; min-height: 80vh;}
+.content    {grid-area: main;}
 .guide	    {grid-area: guid;}
 .copyright	{grid-area: foot;}
 
@@ -21,6 +35,8 @@ body {
             "side main guid"
             "foot foot foot";
         grid-template-columns: 256px 1fr 0px;
+        grid-template-rows: auto 1fr 48px;
+        height: 100%;
     }
 }
 
@@ -33,8 +49,8 @@ body {
             "main guid"
             "foot foot";
         grid-template-columns: 1fr 0px;
+        grid-template-rows: auto 158px 1fr 48px;
+        height: 100%;
     }
-    .menu {height: 182px;}
-    .menu::-webkit-scrollbar {display: none;}
-    .content {min-height: auto;}
+    .menu {height: 158px;}
 }
