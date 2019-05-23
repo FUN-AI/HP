@@ -30,3 +30,20 @@
     height: 100%;
     background: none;
 }
+
+/* 下のやつ */
+#footer {
+    background-color: blueviolet;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+
+    display: grid;
+    justify-content: left;
+    align-items: center;
+}
+
+#footer p{
+    padding: 0px;
+    margin: 0px;
+}

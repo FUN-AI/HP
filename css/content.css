@@ -6,3 +6,36 @@ body {
     background-color: aqua;
     box-sizing: border-box;
 }
+
+/* 上部のニュース関連*/
+#news {
+    background-color: #CCCCCC;
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+#news .box:before{
+    content: "";
+    display: block;
+    padding-top: 20%; /* 幅が変わると表示が変わるの最小の高さは考えなくていい */
+}
+
+#news .inner{
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+#contents_parent {
+    display: flex;
+    background-color: blanchedalmond;
+    margin-bottom: 24px;
+}
+
+.contents_box {
+    flex-basis: 128px;
+    height: 192px;
+}

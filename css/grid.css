@@ -8,13 +8,15 @@ body {
 #icon	    {grid-area: icon;}
 #menu	    {grid-area: menu;}
 #content	{grid-area: content;}
+#footer     {grid-area: footer;}
 
 /* PCのグリッド */
 body {
     grid-template-areas:
 	    "icon content"
-	    "menu content";
+        "menu content"
+        "menu footer";
     grid-template-columns: 172px 1fr;
-    grid-template-rows: 172px 1fr;
+    grid-template-rows: 172px 1fr 32px;
     height: 100%;
 }
