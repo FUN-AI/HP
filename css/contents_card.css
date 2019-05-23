@@ -1,0 +1,85 @@
+/* コンテンツのカード内 */
+@media(min-width: 192px) and (min-height: 258px) and (max-width: 192px) and (max-height: 258px){
+    body {
+        background-color: #cccccc;
+        padding: 0px;
+        margin: 0px;
+
+        grid-template-areas:
+            "title"
+            "thumbnail";
+        grid-template-rows: 2fr 4fr;
+        width: 100%;
+        height: 100%;
+    }
+
+    h1 {
+        margin: 12px 0px 2px 0px;
+        padding: 0px 6px;
+        font-size: small;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        height: 3.4em;
+    }
+
+    #title {
+        background-color: #FFFFFF;
+    }
+
+    #date {
+        position: absolute;
+        font-weight: thin;
+        font-size: x-small;
+        padding: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    #date p{
+        padding-right: 6px;
+        float: right;
+    }
+
+    #thumbnail {
+        height: 100%;
+        width: 100%;
+    }
+
+    #thumbnail img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #thumbnail img:hover{
+        opacity: 0.4;
+    }
+
+    .button{
+        display: none;
+    }
+
+    /*.button{
+        position: absolute;
+        top: 70%;
+        left: 50%;
+        transform: translateY(-50%) translateX(-50%);
+        -webkit- transform: translateY(-50%) translateX(-50%);
+        visibility: hidden;
+    }
+
+    /*.button:hover{
+        visibility: visible;
+        display: inline-block;
+        font-size: large;
+        padding: 5px 18px;
+        text-decoration: none;
+        color: #FFFFFF;
+        border: solid 2px #FFFFFF;
+        border-radius: 1px;
+    }*/
+
+    #other {
+        display: none;
+    }
+}
