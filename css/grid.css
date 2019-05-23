@@ -17,7 +17,7 @@ body {
 	    "icon content"
         "menu content"
         "footer footer";
-    grid-template-columns: 172px 1fr;
-    grid-template-rows: 172px 1fr 32px;
+    grid-template-columns: 212px 1fr;
+    grid-template-rows: 212px 1fr 32px;
     height: 100%;
 }
