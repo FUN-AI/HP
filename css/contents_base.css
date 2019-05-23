@@ -1,0 +1,23 @@
+#title          {grid-area: title;}
+#other          {grid-area: other;}
+#thumbnail	    {grid-area: thumbnail;}
+
+
+body {
+    margin-top: 24px;
+    display: grid;
+}
+
+#thumbnail {
+    width: 49%;
+    box-sizing: border-box;
+}
+
+#date {
+    font-size: small;
+}
+
+.subImage {
+    max-width: 49%;
+    box-sizing: border-box;
+}
