@@ -1,3 +1,5 @@
+/* コンテンツのホーム画面 */
+
 body {
     margin: 0px;
     padding: 32px;
@@ -31,11 +33,17 @@ body {
 
 #contents_parent {
     display: flex;
-    background-color: blanchedalmond;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* background-color: blanchedalmond; */
     margin-bottom: 24px;
+    padding-top: 24px;
 }
 
 .contents_box {
-    flex-basis: 128px;
-    height: 192px;
+    display: block;
+    width: 192px;
+    height: 258px;
+    padding: 12px;
+    border: none; 
 }
