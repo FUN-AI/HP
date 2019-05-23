@@ -10,15 +10,19 @@
 
 /* サイドのメニューバー */
 #menu {
-    background-color: #AAA;
     border-top-right-radius: 32px;
     margin: 5px;
-    padding: 2px;
+    padding: 5px;
+}
+
+#menu p {
+    padding: 0px;
+    margin: 0px;
 }
 
 #menu ul {
     margin: 0px;
-    padding: 8px;
+    padding: 0px 8px 18px 8px;
     list-style: none;
 }
 
@@ -33,13 +37,12 @@
 
 /* 下のやつ */
 #footer {
-    background-color: blueviolet;
     height: 100%;
     margin: 0px;
     padding: 0px;
 
     display: grid;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
 }
 
