@@ -15,11 +15,12 @@
 
     h1 {
         margin: 12px 0px 2px 0px;
-        padding: 0px 0px;
-        font-size: 16px;
+        padding: 0px 6px;
+        font-size: small;
         display: grid;
         justify-content: center;
         align-items: center;
+        height: 3.4em;
     }
 
     #title {
@@ -55,6 +56,10 @@
     }
 
     .button{
+        display: none;
+    }
+
+    /*.button{
         position: absolute;
         top: 70%;
         left: 50%;

@@ -33,8 +33,7 @@ body {
 #contents_parent {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    /* background-color: blanchedalmond; */
+    justify-content: flex-start;
     margin-bottom: 24px;
     padding-top: 24px;
 }
@@ -47,4 +46,5 @@ body {
     margin: 0px;
     border: none;
     overflow: hidden;
+    border-bottom-left-radius: 48px;
 }
