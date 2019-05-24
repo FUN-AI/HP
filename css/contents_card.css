@@ -51,9 +51,9 @@
         height: 100%;
     }
 
-    #thumbnail img:hover{
+    /*#thumbnail img:hover{
         opacity: 0.4;
-    }
+    }*/
 
     .button{
         display: none;

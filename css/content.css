@@ -1,5 +1,4 @@
 /* コンテンツのホーム画面 */
-
 body {
     margin: 0px;
     padding: 32px;
@@ -38,14 +37,35 @@ body {
     padding-top: 24px;
 }
 
-.contents_box {
-    display: block;
+#contents_parent a{
+    margin: 12px;
+}
+
+#contents_parent a:hover{
+    opacity: 0.4;
+}
+
+#contents_parent .contents_box {
     width: 192px;
     height: 258px;
     padding: 0px;
-    margin: 12px;
+    margin: 0px;
     border: none;
     overflow: hidden;
     border: solid 1px #111111;
     border-bottom-left-radius: 48px;
+    /*box-sizing: border-box;*/
+}
+
+/* iframe全体をクリックすることができなかったので見えないdivをiframe前に置いてそれをクリックさせる */
+/*#contents_parent .contents_link {*/
+  #contents_parent a::before{
+    content: "";
+    width: 192px;
+    height: 258px;
+    padding: 0px;
+    margin: 0px;
+    border-bottom-left-radius: 48px;
+    position: absolute;
+    transform: translateY(1px) translateX(1px);
 }
