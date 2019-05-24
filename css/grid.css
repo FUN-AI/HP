@@ -4,7 +4,6 @@ body {
     margin: 0px;
     padding: 0px;
     display: grid;
-    background-color: #EEEEEE;
 }
 #icon	    {grid-area: icon;}
 #menu	    {grid-area: menu;}

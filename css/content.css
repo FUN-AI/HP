@@ -42,9 +42,10 @@ body {
     display: block;
     width: 192px;
     height: 258px;
-    padding: 12px;
-    margin: 0px;
+    padding: 0px;
+    margin: 12px;
     border: none;
     overflow: hidden;
+    border: solid 1px #111111;
     border-bottom-left-radius: 48px;
 }

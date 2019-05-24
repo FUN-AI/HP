@@ -1,7 +1,7 @@
 /* コンテンツのカード内 */
 @media(min-width: 192px) and (min-height: 258px) and (max-width: 192px) and (max-height: 258px){
     body {
-        background-color: #cccccc;
+        background-color: #FCFCFC;
         padding: 0px;
         margin: 0px;
 
@@ -24,7 +24,7 @@
     }
 
     #title {
-        background-color: #FFFFFF;
+        background-color: #FCFCFC;
     }
 
     #date {
