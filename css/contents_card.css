@@ -4,7 +4,6 @@
         background-color: #FCFCFC;
         padding: 0px;
         margin: 0px;
-
         grid-template-areas:
             "title"
             "thumbnail";
@@ -20,11 +19,15 @@
         display: grid;
         justify-content: center;
         align-items: center;
-        height: 3.4em;
+        height: 4em;
     }
 
     #title {
         background-color: #FCFCFC;
+    }
+
+    #title .summary{
+        display: none;
     }
 
     #date {
@@ -44,40 +47,14 @@
     #thumbnail {
         height: 100%;
         width: 100%;
+        display: block;
     }
 
     #thumbnail img{
         width: 100%;
         height: 100%;
+        border: none;
     }
-
-    /*#thumbnail img:hover{
-        opacity: 0.4;
-    }*/
-
-    .button{
-        display: none;
-    }
-
-    /*.button{
-        position: absolute;
-        top: 70%;
-        left: 50%;
-        transform: translateY(-50%) translateX(-50%);
-        -webkit- transform: translateY(-50%) translateX(-50%);
-        visibility: hidden;
-    }
-
-    /*.button:hover{
-        visibility: visible;
-        display: inline-block;
-        font-size: large;
-        padding: 5px 18px;
-        text-decoration: none;
-        color: #FFFFFF;
-        border: solid 2px #FFFFFF;
-        border-radius: 1px;
-    }*/
 
     #other {
         display: none;

@@ -57,8 +57,7 @@ body {
     /*box-sizing: border-box;*/
 }
 
-/* iframe全体をクリックすることができなかったので見えないdivをiframe前に置いてそれをクリックさせる */
-/*#contents_parent .contents_link {*/
+/* iframe全体をクリックすることができなかったので擬似のものをクリックさせる */
   #contents_parent a::before{
     content: "";
     width: 192px;

@@ -1,1 +1,14 @@
 /* 192*258のときはカード型に配置 */
+body {
+    grid-template-areas:
+        "title"
+        "thumbnail"
+        "other";
+}
+
+#other {
+    display: grid;
+    grid-template-areas:
+        "text pic";
+    grid-template-columns: 1fr 1fr;
+}

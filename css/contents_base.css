@@ -2,22 +2,53 @@
 #other          {grid-area: other;}
 #thumbnail	    {grid-area: thumbnail;}
 
-
 body {
     margin-top: 24px;
     display: grid;
 }
 
-#thumbnail {
+#title summary{
+    width: 94%;
+    padding: 12px 3%;
+}
+
+#thumbnail img{
     width: 49%;
     box-sizing: border-box;
+    border-bottom-left-radius: 48px;
+    margin: 12px 0px;
+    border: solid 1px #111111;
+}
+
+#thumbnail {
+    display: none;
 }
 
 #date {
     font-size: small;
 }
 
-.subImage {
-    max-width: 49%;
+#other .subImage {
+    width: 90%;
     box-sizing: border-box;
+    border-bottom-left-radius: 48px;
+    margin: 12px 0px;
+    border: solid 1px #111111;
 }
+
+#text {
+    padding: 0px;
+    margin-top: 24px;
+}
+
+#text p{
+    width: 90%;
+    margin: 2px;
+    padding: 0.25em 5% 2em;
+}
+
+#text h3 {
+    padding: 0px;
+    margin: 0px auto;
+}
+
