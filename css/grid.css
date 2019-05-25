@@ -15,7 +15,7 @@ body {
     grid-template-areas:
 	    "icon content"
         "menu content"
-        "footer footer";
+        "footer content";
     grid-template-columns: 212px 1fr;
     grid-template-rows: 212px 1fr 32px;
     height: 100%;

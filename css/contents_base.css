@@ -26,14 +26,7 @@ body {
 
 #date {
     font-size: small;
-}
-
-#other .subImage {
-    width: 90%;
-    box-sizing: border-box;
-    border-bottom-left-radius: 48px;
-    margin: 12px 0px;
-    border: solid 1px #111111;
+    padding-left: 8px;
 }
 
 #text {
@@ -43,12 +36,28 @@ body {
 
 #text p{
     width: 90%;
-    margin: 2px;
-    padding: 0.25em 5% 2em;
+    padding: 0px;
+    margin: 0.25em 5% 1em;
 }
 
 #text h3 {
     padding: 0px;
-    margin: 0px auto;
+    margin: 2em 0.5em 0px;
 }
 
+#text ul {
+    margin: 0.25em 5% 1em;
+}
+
+#text li {
+    margin: 0px;
+    padding: 0px;
+}
+
+#pic img{
+    width: 90%;
+    box-sizing: border-box;
+    border-bottom-left-radius: 48px;
+    margin: 12px 0px;
+    border: solid 1px #111111;
+}
