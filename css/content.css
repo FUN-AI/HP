@@ -45,7 +45,8 @@ body {
     opacity: 0.4;
 }
 
-#contents_parent .contents_box {
+/* iframe */
+#contents_parent iframe {
     width: 192px;
     height: 258px;
     padding: 0px;

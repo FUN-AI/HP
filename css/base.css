@@ -60,7 +60,13 @@
 }
 
 /* その他 */
-.baseBody{
-    padding: 12px 32px;
+#baseBody{
+    padding: 0;
     background-color: #FCFCFC;
+    overflow-y: scroll;
+}
+
+#baseBody::-webkit-scrollbar {
+    display: none;
+    -webkit-appearance: none;
 }
