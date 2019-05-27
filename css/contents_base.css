@@ -31,7 +31,7 @@ body {
 
 #text {
     padding: 0px;
-    margin-top: 24px;
+    margin-top: 1em;
 }
 
 #text p{
@@ -40,14 +40,18 @@ body {
     margin: 0.25em 5% 1em;
 }
 
+#text .h3_top {
+    margin-top: 0em;
+}
+
 #text h3 {
     padding: 0px;
     margin: 2em 0.5em 0px;
 }
 
 #text ul {
-    width: 90%;
-    margin: 0.25em 5% 1em;
+    width: auto;
+    margin: 0.25em 2em 1em;
 }
 
 #text li {
