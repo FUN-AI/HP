@@ -10,7 +10,7 @@ body {
 #content	{grid-area: content;}
 #footer     {grid-area: footer;}
 
-/* PCのグリッド */
+/* パソコンのグリッド */
 body {
     grid-template-areas:
 	    "icon content"
@@ -20,3 +20,49 @@ body {
     grid-template-rows: 212px auto 32px;
     height: 100%;
 }
+
+/* タブレットのグリッド（お知らせは表示しない：ボックスで確認可能） */
+@media (min-width: 600px) and (max-width: 999px){
+    body {
+        grid-template-areas:
+            "icon menu"
+            "content content"
+            "footer footer";
+        grid-template-columns: 128px 1fr;
+        grid-template-rows: 128px auto 32px;
+        height: 100%;
+    }
+
+    #icon {
+        margin: 0px;
+        padding: 4px;
+        background-color: #555555;
+    }
+
+    #menu {
+        margin: 0;
+        padding: 4px;
+        background-color: #555555;
+    }
+
+    #menu #link ul {
+    }
+
+    #menu #link li {
+        display: inline;
+    }
+
+    #menu #link a {
+        text-decoration: none;
+        color: #FCFCFC;
+        font-size: medium;
+        text-align: center;
+    }
+
+    #menu #info{
+        display: none;
+    }
+}
+
+/* スマホのグリッド */
+

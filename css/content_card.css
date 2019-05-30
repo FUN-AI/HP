@@ -61,3 +61,7 @@
         display: none;
     }
 }
+
+/* カード（横型：小さい画面用） */
+@media (max-width: 599) and (min-height: 64px) and (max-height: 65px){
+}
