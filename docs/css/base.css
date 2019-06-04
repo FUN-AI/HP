@@ -1,7 +1,7 @@
 
 /* サークルアイコン：横幅によって読み込むファイル変えたい */
 #icon {
-    margin: 5px;
+    margin: 12px;
 }
 
 #icon img {
@@ -10,9 +10,8 @@
 
 /* サイドのメニューバー */
 #menu {
-    border-top-right-radius: 32px;
     margin: 5px;
-    padding: 5px;
+    padding: 12px 0.6em;
 }
 
 #menu p {
@@ -22,8 +21,16 @@
 
 #menu ul {
     margin: 0px;
-    padding: 0px 8px 18px 8px;
+    padding: 0px 1em 1em 0.5em;
     list-style: none;
+}
+
+#menu li {
+    font-size: small;
+}
+
+#menu .listTitle{
+    font-weight: bold;
 }
 
 /* content関連の設定 */
@@ -48,4 +55,17 @@
 #footer p{
     padding: 0px;
     margin: 0px;
+    font-size: small;
+}
+
+/* その他 */
+#baseBody{
+    padding: 0;
+    background-color: #FCFCFC;
+    overflow-y: scroll;
+}
+
+#baseBody::-webkit-scrollbar {
+    display: none;
+    -webkit-appearance: none;
 }
