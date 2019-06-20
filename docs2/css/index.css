@@ -1,0 +1,308 @@
+#main {
+	grid-area: main;
+}
+
+#side {
+	grid-area: side;
+}
+
+#foot {
+	grid-area: foot;
+}
+
+/* grid for PC */
+
+@media (min-width: 1000px) {
+	body {
+		display: grid;
+		position: relative;
+		grid-template-areas: "logo ." "side main" ".    main" "foot main";
+		grid-template-columns: 312px 1fr;
+		grid-template-rows: 96px auto auto 128px;
+		min-height: 100vh;
+		max-width: 100%;
+	}
+}
+
+/* grid for tablet */
+
+@media (min-width: 600px) and (max-width: 999px) {
+	body {
+		display: grid;
+		grid-template-areas: "logo" "side" "main" "foot";
+		grid-template-columns: 1fr;
+		grid-template-rows: 0 auto 1fr 48px;
+		min-height: 100vh;
+		max-width: 100%;
+	}
+}
+
+/* grid for smartphone */
+
+@media (max-width: 599px) {
+	body {
+		display: grid;
+		grid-template-areas: "logo" "side" "main" "foot";
+		grid-template-columns: 1fr;
+		grid-template-rows: 0 auto 1fr 48px;
+		min-height: 100vh;
+		max-width: 100%;
+	}
+}
+
+/* mainの設定 */
+
+#main {
+	min-height: 100%;
+	background-color: var(--ColorbgMain);
+	box-sizing: border-box;
+	border-top: 12px solid var(--ColorbgSide);
+	border-bottom: 12px solid var(--ColorbgFoot);
+	padding: 48px 64px;
+	color: var(--ColorTextMain);
+	font-weight: bold;
+	position: relative;
+}
+
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* タブレット端末以上でアニメーションを適応 */
+
+@media (min-width: 600px) {
+	#main a, #main p, #main h1, #main h2, #main h3, #main h4, #main h5, #main hr, #main li, #main ul, #main img, #main div, #main span {
+		animation-duration: 1.25s;
+		animation-name: fadein;
+	}
+
+	#works .content:hover {
+		transition-duration: 0.12s;
+	}
+}
+
+/* worksの設定 */
+
+.content:hover {
+	opacity: 0.6;
+	transform: scale(0.98);
+}
+
+#controller_top {
+	width: 100%;
+	height: auto;
+}
+
+.controller {
+	text-align: center;
+	color: var(--ColorTextMain);
+	font-size: small;
+	font-weight: bold;
+	width: 100%;
+	height: auto;
+}
+
+#works {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+#works a:link {
+	color: var(--ColorTextMain);
+}
+
+#works a:visited {
+	color: var(--ColorTextMain);
+}
+
+#works a:hover {
+	color: var(--ColorTextMain);
+}
+
+#works a:active {
+	color: var(--ColorTextMain);
+}
+
+#content_box {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.content {
+	min-width: 256px;
+	min-height: 256px;
+	margin: 4px;
+	box-sizing: border-box;
+	background-color: var(--ColorbgFoot);
+	flex: auto;
+	position: relative;
+	text-decoration: none;
+	display: inline;
+	text-align: center;
+}
+
+.content img {
+	width: 100%;
+	height: 100%;
+	left: 0;
+	position: absolute;
+	object-fit: cover;
+	filter: brightness(0.75) blur(0.2px) grayscale(0.3);
+	overflow: hidden;
+}
+
+.contentCard {
+	top: 50%;
+	transform: translateY(-50%);
+	background-color: var(--ColorbgGrass);
+	position: relative;
+	box-sizing: border-box;
+	padding: 0.8em 0em 1em;
+}
+
+.content h1, .content h4, .content p {
+	overflow: hidden;
+	position: relative;
+	margin: 0;
+	padding: 0 1em 4px;
+}
+
+/* sideバー＆logoの設定 */
+
+#side, #logo {
+	background-color: var(--ColorbgSide);
+	color: var(--ColorTextSide);
+	position: sticky;
+	top: 0px;
+	bottom: 0px;
+	height: auto;
+	text-align: center;
+	z-index: 32;
+}
+
+#side h1, #logo h1 {
+	font-weight: bold;
+	font-size: x-larger;
+	margin: 24px 0px;
+}
+
+#side .button {
+	margin: 2em;
+}
+
+#side .button a:hover {
+	opacity: 0.8;
+}
+
+#side a {
+	font-weight: bold;
+	font-size: large;
+	padding: 0px;
+	margin: 0px;
+	text-decoration: none;
+}
+
+#side .now {
+	border-bottom: 2px solid;
+	box-sizing: border-box;
+}
+
+#side a:link {
+	color: var(--ColorTextSide);
+}
+
+#side a:visited {
+	color: var(--ColorTextSide);
+}
+
+#side a:hover {
+	color: var(--ColorTextSide);
+}
+
+#side a:active {
+	color: var(--ColorTextSide);
+}
+
+#side p {
+	color: var(--ColotTextSide2);
+	font-weight: inherit;
+	font-size: small;
+	margin: 0px;
+	padding: 4px 0px;
+}
+
+/* footの設定 */
+
+#foot {
+	background-color: var(--ColorbgFoot);
+	position: sticky;
+	bottom: 0px;
+	height: 100%;
+	text-align: center;
+}
+
+#foot p {
+	margin: 0px;
+	color: var(--ColorTextFoot);
+	font-weight: bold;
+	white-space: nowrap;
+	height: auto;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+/* タブレット用の設定 */
+
+@media (min-width: 600px) and (max-width: 999px) {
+	#logo {
+		display: none;
+	}
+	#side {
+		display: flex;
+		align-items: stretch;
+		justify-content: center;
+	}
+	#side .button {
+		float: left;
+		padding: 0;
+		margin: 26px 32px 16px;
+	}
+}
+
+/* スマートフォン用の設定 */
+
+@media (max-width: 599px) {
+	#logo {
+		display: none;
+	}
+	#side {
+		position: relative;
+		top: 0px;
+	}
+	#foot {
+		position: relative;
+	}
+}
+
+/* 開いたときに非表示しておくもの */
+
+#works {
+	display: none;
+}
+
+#about {
+	display: none;
+}
+
+#loading {
+	display: none;
+}

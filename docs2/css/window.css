@@ -1,0 +1,108 @@
+/* コンテンツを表示するウィンドウのためのcss */
+
+/* grid-area */
+
+#window_title {
+	grid-area: window_title;
+}
+
+#window_button {
+	grid-area: window_button;
+}
+
+#window_main {
+	grid-area: window_main;
+}
+
+#window_loading {
+	grid-area: window_main;
+}
+
+/* iframeの設定 */
+
+#content_base {
+	display: none;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	background-color: var(--ColorbgGrass);
+	z-index: 999;
+}
+
+#content_frame {
+	display: grid;
+	grid-template-areas: "window_title window_button" "window_main  window_main";
+	grid-template-columns: 1fr 32px;
+	grid-template-rows: 32px 1fr;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	border: 2px solid var(--ColorbgAccent);
+	width: 80%;
+	height: 80%;
+	box-sizing: border-box;
+	background-color: var(--ColorbgAccent);
+	font-weight: bold;
+}
+
+#window_main {
+	font-weight: bold;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	border: none;
+}
+
+#window_loading {
+	background-color: var(--ColorbgMain);
+}
+
+#window_title {
+	background-color: var(--ColorbgAccent);
+	position: relative;
+	overflow: hidden;
+}
+
+#window_title p {
+	color: var(--ColorTextMain);
+	padding: 0 12px;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	overflow: hidden;
+	white-space: nowrap;
+	font-weight: bold;
+}
+
+#window_button {
+	background-color: var(--ColorbgLink);
+	position: relative;
+	cursor: pointer;
+}
+
+#window_button:hover {
+	opacity: 0.7;
+}
+
+#window_button p {
+	color: var(--ColorTextMain);
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+}
+
+.loadMessage {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);
+	padding: 0;
+	color: var(--ColorTextMain);
+}

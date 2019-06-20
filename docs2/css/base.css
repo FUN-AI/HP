@@ -1,0 +1,77 @@
+﻿:root {
+	/* 背景関連 */
+	--ColorbgMain: #CCCCCC;
+	--ColorbgSide: #EFEFEF;
+	--ColorbgFoot: #AAAAAA;
+	--ColorbgAccent: #888888;
+	--ColorbgGrass: #CCCCCCAC;
+	--ColorbgLink: #FF4444;
+
+	/* 文字関連 */
+	--ColorTextFoot: #444444;
+	--ColorTextSide: #222222;
+	--ColotTextSide2: #666666;
+	--ColorTextMain: #111111;
+	--ColorTextLink: #1155CC;
+}
+
+body {
+	font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN','Osaka','Yu Gothic UI','Meiryo UI','Helvetica','Arial Black',sans-serif;
+	background-color: var(--ColorbgSide);
+	padding: 0px;
+	margin: 0px;
+	min-height: 100%;
+	font-weight: bold;
+	word-break: break-all; /* URLや長い文章によるレイアウト崩壊を防ぐため */
+}
+
+hr {
+	background-color: var(--ColorbgFoot);
+	border: none;
+	height: 3px;
+	margin: 1.4em 0;
+}
+
+h1 {
+	padding: 0px;
+	margin: 0px;
+}
+
+h2 {
+	padding: 0em 0px 0.5em;
+	margin: 0px;
+	font-size: x-large;
+	font-weight: bold;
+	color: var(--ColotTextSide2);
+}
+
+p {
+	padding: 0px;
+	margin: 0px;
+	width: calc(100%-64px);
+}
+
+ul {
+	margin: 0;
+}
+
+a {
+	font-weight: bold;
+}
+
+a:link {
+	color: var(--ColorTextLink);
+}
+
+a:visited {
+	color: var(--ColorTextLink);
+}
+
+a:hover {
+	color: var(--ColorTextLink);
+	opacity: 0.8;
+}
+
+a:active {
+	color: var(--ColorTextLink);
+}
