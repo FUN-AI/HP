@@ -17,7 +17,7 @@
 		display: grid;
 		position: relative;
 		grid-template-areas: "logo ." "side main" ".    main" "foot main";
-		grid-template-columns: 312px 1fr;
+		grid-template-columns: 256px 1fr;
 		grid-template-rows: 96px auto auto 128px;
 		min-height: 100vh;
 		max-width: 100%;
@@ -136,8 +136,8 @@
 }
 
 .content {
-	min-width: 256px;
-	min-height: 256px;
+	width: 256px;
+	height: 256px;
 	margin: 4px;
 	box-sizing: border-box;
 	background-color: var(--ColorbgFoot);
@@ -146,6 +146,8 @@
 	text-decoration: none;
 	display: inline;
 	text-align: center;
+	border: 1px solid var(--ColorTextMain);
+	border-bottom-left-radius: 48px;
 }
 
 .content img {
@@ -154,8 +156,9 @@
 	left: 0;
 	position: absolute;
 	object-fit: cover;
-	filter: brightness(0.75) blur(0.2px) grayscale(0.3);
+	filter: brightness(0.82) blur(0.2px) grayscale(0.3);
 	overflow: hidden;
+	border-bottom-left-radius: 48px;
 }
 
 .contentCard {
@@ -164,14 +167,19 @@
 	background-color: var(--ColorbgGrass);
 	position: relative;
 	box-sizing: border-box;
-	padding: 0.8em 0em 1em;
+	padding: 2em 0em;
 }
 
 .content h1, .content h4, .content p {
+	font-size: small;
 	overflow: hidden;
 	position: relative;
 	margin: 0;
 	padding: 0 1em 4px;
+}
+
+.content h1 {
+	font-size: x-large;
 }
 
 /* sideバー＆logoの設定 */

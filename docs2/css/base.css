@@ -1,28 +1,28 @@
 ﻿:root {
 	/* 背景関連 */
-	--ColorbgMain: #CCCCCC;
-	--ColorbgSide: #EFEFEF;
+	--ColorbgMain: #F2F2F2;
+	--ColorbgSide: #CCCCCC;
 	--ColorbgFoot: #AAAAAA;
 	--ColorbgAccent: #888888;
 	--ColorbgGrass: #CCCCCCAC;
 	--ColorbgLink: #FF4444;
-
 	/* 文字関連 */
 	--ColorTextFoot: #444444;
-	--ColorTextSide: #222222;
-	--ColotTextSide2: #666666;
-	--ColorTextMain: #111111;
+	--ColorTextSide: #444444;
+	--ColotTextSide2: #888888;
+	--ColorTextMain: #222222;
 	--ColorTextLink: #1155CC;
 }
 
 body {
-	font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN','Osaka','Yu Gothic UI','Meiryo UI','Helvetica','Arial Black',sans-serif;
+	font-family: 'ヒラギノ角ゴ StdN', 'Hiragino Kaku Gothic StdN', 'Osaka', 'Yu Gothic UI', 'Meiryo UI', 'Helvetica', 'Arial Black', sans-serif;
 	background-color: var(--ColorbgSide);
 	padding: 0px;
 	margin: 0px;
 	min-height: 100%;
 	font-weight: bold;
-	word-break: break-all; /* URLや長い文章によるレイアウト崩壊を防ぐため */
+	word-break: break-all;
+	/* URLや長い文章によるレイアウト崩壊を防ぐため */
 }
 
 hr {
