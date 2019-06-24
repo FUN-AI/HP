@@ -71,7 +71,7 @@ function loadPage(page) {
 		content.setAttribute("class", "content whiteLink");
 		content.setAttribute("href", "javascript:void(0);");
 		content.setAttribute("onclick", `loadhtml("${contentData[i]["path"]}", "${contentData[i]["title"]}");`);
-		content.insertAdjacentHTML("beforeend", `<img src="${contentData[i]["image"]}" onerror="this.src='./img/noimage_0.gif';" alt="${contentData[i]["title"]}">`);
+		content.insertAdjacentHTML("beforeend", `<img src="${contentData[i]["image"]}" onerror="this.src='./img/default.png';" alt="${contentData[i]["title"]}">`);
 		content.insertAdjacentHTML("beforeend", `<div class="contentCard"><h1>${contentData[i]["title"]}</h1><h4>${contentData[i]["date"]}</h4><p>${tagString}</p></div>`);
 		doc_content_box.appendChild(content);
 	}

@@ -1,12 +1,12 @@
 [
 	{
-		"title": "TITLE",
-		"date": "2019/06",
-		"path": "./html/content_190601.json",
-		"image": "./",
+		"title": "サークル室の利用について",
+		"date": "2019/05",
+		"path": "./html/sasitu.html",
+		"image": "./img/19_0521_1.jpg",
 		"tag": [
 			"お知らせ",
-			"テストデータ"
+			"メンバー向け"
 		]
 	},
 	{
