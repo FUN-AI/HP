@@ -110,8 +110,11 @@
 	flex: auto;
 	position: relative;
 	text-decoration: none;
+	box-sizing: border-box;
 	display: inline;
 	text-align: center;
+	border: 1px solid var(--ColorTextMain);
+	border-bottom-left-radius: 48px;
 }
 
 .content img {
@@ -120,8 +123,9 @@
 	left: 0;
 	position: absolute;
 	object-fit: cover;
-	filter: brightness(0.75) blur(0.2px) grayscale(0.3);
+	filter: brightness(0.82) blur(0.2px) grayscale(0.3);
 	overflow: hidden;
+	border-bottom-left-radius: 48px;
 }
 
 .contentCard {

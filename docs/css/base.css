@@ -1,17 +1,17 @@
 ﻿:root {
 	/* 背景関連 */
-	--ColorbgMain: #222222;
-	--ColorbgSide: #111111;
-	--ColorbgFoot: #181818;
-	--ColorbgAccent: #444444;
-	--ColorbgGrass: #222222AC;
+	--ColorbgMain: #F2F2F2;
+	--ColorbgSide: #CCCCCC;
+	--ColorbgFoot: #AAAAAA;
+	--ColorbgAccent: #888888;
+	--ColorbgGrass: #CCCCCCAC;
 	--ColorbgLink: #FF4444;
 
 	/* 文字関連 */
 	--ColorTextFoot: #444444;
-	--ColorTextSide: #EEEEEE;
-	--ColotTextSide2: #666666;
-	--ColorTextMain: #EEEEEE;
+	--ColorTextSide: #444444;
+	--ColotTextSide2: #888888;
+	--ColorTextMain: #222222;
 	--ColorTextLink: #1155CC;
 }
 
