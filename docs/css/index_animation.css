@@ -1,0 +1,20 @@
+@keyframes fadein {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+/* タブレット端末以上でアニメーションを適応 */
+
+@media (min-width: 600px) {
+	#main a, #main p, #main h1, #main h2, #main h3, #main h4, #main h5, #main hr, #main li, #main ul, #main img, #main div, #main span {
+		animation-duration: 1.25s;
+		animation-name: fadein;
+	}
+	#works .content:hover {
+		transition-duration: 0.12s;
+	}
+}

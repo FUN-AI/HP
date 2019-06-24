@@ -1,0 +1,13 @@
+
+#oldBrowser {
+    display: block;
+    position: absolute;
+    top: 0;
+}
+
+/* @supportsすらサポートしていないブラウザがあるので... */
+@supports (display: grid) {
+    #oldBrowser {
+        display: none;
+    }
+}
