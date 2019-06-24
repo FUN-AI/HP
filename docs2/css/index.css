@@ -17,7 +17,7 @@
 		display: grid;
 		position: relative;
 		grid-template-areas: "logo ." "side main" ".    main" "foot main";
-		grid-template-columns: 256px 1fr;
+		grid-template-columns: 312px 1fr;
 		grid-template-rows: 96px auto auto 128px;
 		min-height: 100vh;
 		max-width: 100%;
@@ -64,28 +64,6 @@
 	position: relative;
 }
 
-@keyframes fadein {
-	from {
-		opacity: 0;
-	}
-	to {
-		opacity: 1;
-	}
-}
-
-/* タブレット端末以上でアニメーションを適応 */
-
-@media (min-width: 600px) {
-	#main a, #main p, #main h1, #main h2, #main h3, #main h4, #main h5, #main hr, #main li, #main ul, #main img, #main div, #main span {
-		animation-duration: 1.25s;
-		animation-name: fadein;
-	}
-
-	#works .content:hover {
-		transition-duration: 0.12s;
-	}
-}
-
 /* worksの設定 */
 
 .content:hover {
@@ -112,22 +90,6 @@
 	flex-wrap: wrap;
 }
 
-#works a:link {
-	color: var(--ColorTextMain);
-}
-
-#works a:visited {
-	color: var(--ColorTextMain);
-}
-
-#works a:hover {
-	color: var(--ColorTextMain);
-}
-
-#works a:active {
-	color: var(--ColorTextMain);
-}
-
 #content_box {
 	display: flex;
 	flex-wrap: wrap;
@@ -136,8 +98,8 @@
 }
 
 .content {
-	width: 256px;
-	height: 256px;
+	min-width: 256px;
+	min-height: 256px;
 	margin: 4px;
 	box-sizing: border-box;
 	background-color: var(--ColorbgFoot);
@@ -146,8 +108,6 @@
 	text-decoration: none;
 	display: inline;
 	text-align: center;
-	border: 1px solid var(--ColorTextMain);
-	border-bottom-left-radius: 48px;
 }
 
 .content img {
@@ -156,9 +116,8 @@
 	left: 0;
 	position: absolute;
 	object-fit: cover;
-	filter: brightness(0.82) blur(0.2px) grayscale(0.3);
+	filter: brightness(0.75) blur(0.2px) grayscale(0.3);
 	overflow: hidden;
-	border-bottom-left-radius: 48px;
 }
 
 .contentCard {
@@ -167,19 +126,14 @@
 	background-color: var(--ColorbgGrass);
 	position: relative;
 	box-sizing: border-box;
-	padding: 2em 0em;
+	padding: 0.8em 0em 1em;
 }
 
 .content h1, .content h4, .content p {
-	font-size: small;
 	overflow: hidden;
 	position: relative;
 	margin: 0;
 	padding: 0 1em 4px;
-}
-
-.content h1 {
-	font-size: x-large;
 }
 
 /* sideバー＆logoの設定 */
@@ -192,12 +146,11 @@
 	bottom: 0px;
 	height: auto;
 	text-align: center;
-	z-index: 32;
 }
 
-#side h1, #logo h1 {
+#logo h1 {
 	font-weight: bold;
-	font-size: x-larger;
+	font-size: xx-large;
 	margin: 24px 0px;
 }
 
@@ -206,7 +159,7 @@
 }
 
 #side .button a:hover {
-	opacity: 0.8;	
+	opacity: 0.8;
 }
 
 #side a {
@@ -220,22 +173,6 @@
 #side .now {
 	border-bottom: 2px solid;
 	box-sizing: border-box;
-}
-
-#side a:link {
-	color: var(--ColorTextSide);
-}
-
-#side a:visited {
-	color: var(--ColorTextSide);
-}
-
-#side a:hover {
-	color: var(--ColorTextSide);
-}
-
-#side a:active {
-	color: var(--ColorTextSide);
 }
 
 #side p {

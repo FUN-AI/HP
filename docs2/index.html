@@ -9,27 +9,23 @@
     <meta name="theme-color" content="#444444">
     <title>FUN-AI</title>
     <link rel="shortcut icon" href="./img/favicon.ico">
-    <link rel="stylesheet" href="./css/oldBrowser.css" type="text/css">
-    <link rel="stylesheet" href="./css/base.css" type="text/css">
-    <link rel="stylesheet" href="./css/index.css" type="text/css">
-    <link rel="stylesheet" href="./css/window.css" type="text/css">
-    <script type="text/javascript" src="./js/callback.js"></script>
-    <script type="text/javascript" src="./js/xmlhttp.js"></script>
-    <script type="text/javascript" src="./js/loadFile.js"></script>
-    <script type="text/javascript" src="./js/side.js"></script>
-    <script type="text/javascript" src="./js/onload.js"></script>
+	<link rel="stylesheet" href="./css/oldBrowser.css" type="text/css">
+	<link rel="stylesheet" href="./css/base.css" type="text/css">
+	<link rel="stylesheet" href="./css/index.css" type="text/css">
+	<link rel="stylesheet" href="./css/index_animation.css" type="text/css">
+	<link rel="stylesheet" href="./css/window.css" type="text/css">
+	<script type="text/javascript" src="./js/function.js"></script>
+	<script type="text/javascript" src="./js/callback.js"></script>
+	<script type="text/javascript" src="./js/xmlhttp.js"></script>
+	<script type="text/javascript" src="./js/loadFile.js"></script>
+	<script type="text/javascript" src="./js/side.js"></script>
+	<script type="text/javascript" src="./js/onload.js"></script>
 </head>
 
 <body>
 
     <div id="logo">
         <h1>FUN AI</h1>
-    </div>
-
-    <div id="side">
-        <div class="button"><a href="javascript:void(0);" onclick="OnLinkClick('side_top');" id="side_top" class="now">TOP<p>ホーム</p></a></div>
-        <div class="button"><a href="javascript:void(0);" onclick="OnLinkClick('side_works');" id="side_works">WORKS<p>コンテンツ</p></a></div>
-        <div class="button"><a href="javascript:void(0);" onclick="OnLinkClick('side_about');" id="side_about">ABOUT<p>FUN AIについて</p></a></div>
     </div>
 
     <!-- 各コンテンツはひとつずつ表示する（選択されていないものは非表示） -->
@@ -68,6 +64,27 @@
 			<h2>FUN AIとは？</h2>
 			<p>公立はこだて未来大学人工知能サークルです。</p>
         </div>
+	</div>
+	
+    <div id="side">		
+		<div class="button">
+			<a href="javascript:void(0);" onclick="OnLinkClick('side_top');">
+				<span class="whiteLink now" id="side_top">TOP</span>
+				<p>ホーム</p>
+			</a>
+		</div>
+		<div class="button">
+			<a href="javascript:void(0);" onclick="OnLinkClick('side_works');">
+				<span class="whiteLink" id="side_works">WORKS</span>
+				<p>コンテンツ</p>
+			</a>
+		</div>
+		<div class="button">
+			<a href="javascript:void(0);" onclick="OnLinkClick('side_about');">
+				<span class="whiteLink" id="side_about">ABOUT</span>
+				<p>FUN AIについて</p>
+			</a>
+		</div>
     </div>
 
     <div id="foot">
@@ -75,21 +92,21 @@
     </div>
 
     <!-- コンテンツページ（window.htmlから） -->
-    <div id="content_base">
-        <div id="content_frame">
-            <div id="window_title">
-                <p>content window</p>
-            </div>
-            <a id="window_button">
-                <p>×</p>
-            </a>
-            <iframe id="window_main">
-            </iframe>
-            <div id="window_loading">
-                <p class="loadMessage">Now Loading...</p>
-            </div>
-        </div>
-    </div>
+	<div id="content_base">
+		<div id="content_frame">
+			<div id="window_title">
+				<p>content window</p>
+			</div>
+			<a id="window_button">
+				<p>×</p>
+			</a>
+			<div id="window_main">
+			</div>
+			<div id="window_loading">
+				<p class="loadMessage">Now Loading...</p>
+			</div>
+		</div>
+	</div>
 
     <!-- このブラウザはサポートしていませんの表示。 -->
     <div id="oldBrowser">

@@ -1,4 +1,5 @@
 
+// 前回ターゲットとターゲット名と表示名
 var targetStrBefore = "side_top";
 var targetName = {
 	"side_top": "top",
@@ -7,17 +8,6 @@ var targetName = {
 };
 
 function OnLinkClick(targetStr) {
-	// デバッグ用
-	console.log(targetStrBefore, ">>", targetStr, "メニューのボタンが押されました。");
-	console.log(targetName[targetStrBefore], ">>", targetName[targetStr], "mainのコンテンツを切り替えます。");
-
-	// 各idごとの処理
-	switch (targetStr) {
-		case "side_works":  // worksのページを0に戻す
-			loadPage(0);
-			break;
-	}
-
 	// #mainの表示を切り替える
 	document.getElementById(targetStrBefore).classList.remove("now");
 	document.getElementById(targetName[targetStrBefore]).style.display = "none";
