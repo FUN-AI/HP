@@ -66,6 +66,10 @@
 
 /* worksの設定 */
 
+.content h1 {
+	font-size: x-large;
+}
+
 .content:hover {
 	opacity: 0.6;
 	transform: scale(0.98);
