@@ -111,7 +111,7 @@
     background-color: var(--ColorbgMain);
     color: var(--ColorTextMain);
     margin: 0;
-    padding: 48px 64px;
+    padding: 48px 32px;
 	width: 100%;
 	min-height: 100%;
     height: auto;
