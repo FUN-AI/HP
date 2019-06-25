@@ -20,7 +20,6 @@
 		]
 	},
 	{
-<<<<<<< HEAD
 		"title": "2019活動予定",
 		"date": "2019/04",
 		"path": "./html/content_190601.json",
@@ -33,14 +32,8 @@
 	{
 		"title": "2019年新入生歓迎会",
 		"date": "2019/04",
-		"path": "./html/content_190601.json",
-		"image": "./img/19_0415_1.jpg",
-=======
-		"title": "2019年度新入生歓迎会",
-		"date": "2019/04",
 		"path": "./html/shinkan_2019.html",
-		"image": "./",
->>>>>>> t4t5u0
+		"image": "./img/19_0415_1.jpg",
 		"tag": [
 			"お知らせ",
 			"テストデータ"
@@ -69,13 +62,8 @@
 	{
 		"title": "2018年度未来祭",
 		"date": "2018/10",
-<<<<<<< HEAD
 		"path": "./html/2018miraisai.html",
 		"image": "./img/18_1006_1.jpg",
-=======
-		"path": "./html/miraisai_2018.html",
-		"image": "./",
->>>>>>> t4t5u0
 		"tag": [
 			"お知らせ",
 			"テストデータ"
