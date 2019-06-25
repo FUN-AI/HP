@@ -1,5 +1,15 @@
 [
 	{
+		"title": "サークル内ブロック崩し発表会",
+		"date": "2019/06",
+		"path": "./html/funaiblock2019.html",
+		"image": "./img/",
+		"tag": [
+			"プログラミング",
+			"発表会"
+		]
+	},
+	{
 		"title": "サークル室の利用について",
 		"date": "2019/05",
 		"path": "./html/sasitu.html",
@@ -10,10 +20,20 @@
 		]
 	},
 	{
+		"title": "2019活動予定",
+		"date": "2019/04",
+		"path": "./html/content_190601.json",
+		"image": "./img/19_0509_1.jpg",
+		"tag": [
+			"お知らせ",
+			"テストデータ"
+		]
+	},
+	{
 		"title": "2019年新入生歓迎会",
 		"date": "2019/04",
 		"path": "./html/content_190601.json",
-		"image": "./",
+		"image": "./img/19_0415_1.jpg",
 		"tag": [
 			"お知らせ",
 			"テストデータ"
@@ -43,7 +63,7 @@
 		"title": "2018年度未来祭",
 		"date": "2018/10",
 		"path": "./html/content_190601.json",
-		"image": "./",
+		"image": "./img/18_1006_1.jpg",
 		"tag": [
 			"お知らせ",
 			"テストデータ"
