@@ -121,6 +121,12 @@
 	-ms-overflow-style:none;
 }
 
+#window_main img {
+	height: 92px;
+	border: 1px solid var(--ColorTextMain);
+	margin: 2px;
+}
+
 #window_main::-webkit-scrollbar{
 	display:none;
 }
