@@ -1,5 +1,15 @@
 [
 	{
+		"title": "サークル内ブロック崩し発表会",
+		"date": "2019/06",
+		"path": "./html/funaiblock2019.html",
+		"image": "./img/",
+		"tag": [
+			"プログラミング",
+			"発表会"
+		]
+	},
+	{
 		"title": "サークル室の利用について",
 		"date": "2019/05",
 		"path": "./html/sasitu.html",
