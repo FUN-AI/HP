@@ -9,14 +9,14 @@
 
 	/* 文字関連 */
 	--ColorTextFoot: #444444;
-	--ColorTextSide: #666666;
-	--ColotTextSide2: #AAAAAA;
+	--ColorTextSide: #555555;
+	--ColotTextSide2: #989898;
 	--ColorTextMain: #333333;
-	--ColorTextLink: #1155CC;
+	--ColorTextLink: #1155EE;
 }
 
 body {
-	font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN','Osaka','Yu Gothic UI','Meiryo UI','Helvetica','Arial Black',sans-serif;
+	font-family: 'ヒラギノ角ゴ StdN','Hiragino Kaku Gothic StdN','Osaka','Meiryo UI','Yu Gothic UI','Helvetica','Arial Black',sans-serif;
 	background-color: var(--ColorbgSide);
 	padding: 0px;
 	margin: 0px;
