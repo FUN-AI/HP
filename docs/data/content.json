@@ -2,7 +2,7 @@
 	{
 		"title": "サークル内ブロック崩し発表会",
 		"date": "2019/06",
-		"path": "./html/funaiblock2019.html",
+		"path": "./html/2019_funaiblock.html",
 		"image": "./img/",
 		"tag": [
 			"プログラミング",
@@ -12,7 +12,7 @@
 	{
 		"title": "サークル室の利用について",
 		"date": "2019/05",
-		"path": "./html/sasitu.html",
+		"path": "./html/2019_sasitu.html",
 		"image": "./img/19_0521_1.jpg",
 		"tag": [
 			"お知らせ",
@@ -22,7 +22,7 @@
 	{
 		"title": "2019活動予定",
 		"date": "2019/04",
-		"path": "./html/content_190601.json",
+		"path": "./html/2019_yotei.html",
 		"image": "./img/19_0509_1.jpg",
 		"tag": [
 			"お知らせ",
@@ -32,7 +32,7 @@
 	{
 		"title": "2019年新入生歓迎会",
 		"date": "2019/04",
-		"path": "./html/shinkan_2019.html",
+		"path": "./html/2019_shinkan.html",
 		"image": "./img/19_0415_1.jpg",
 		"tag": [
 			"お知らせ",
@@ -42,7 +42,7 @@
 	{
 		"title": "2019年度三役紹介",
 		"date": "2019/04",
-		"path": "./html/staff_introduction.html",
+		"path": "./html/2019_staff_introduction.html",
 		"image": "./",
 		"tag": [
 			"お知らせ",
@@ -52,7 +52,7 @@
 	{
 		"title": "2018年度活動まとめ",
 		"date": "2019/03",
-		"path": "./html/content_190601.json",
+		"path": "./html/2018_activity_log.html",
 		"image": "./",
 		"tag": [
 			"お知らせ",
@@ -62,7 +62,7 @@
 	{
 		"title": "2018年度未来祭",
 		"date": "2018/10",
-		"path": "./html/2018miraisai.html",
+		"path": "./html/2018_miraisai.html",
 		"image": "./img/18_1006_1.jpg",
 		"tag": [
 			"お知らせ",
