@@ -41,7 +41,7 @@
 	transform: translateY(-50%) translateX(-50%);
 	border: 2px solid var(--ColorbgAccent);
 	width: 80%;
-	height: 80%;
+	height: 90%;
 	box-sizing: border-box;
 	background-color: var(--ColorbgAccent);
 	font-weight: bold;
