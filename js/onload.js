@@ -66,13 +66,16 @@ function loadPage(page) {
 	// コンテンツを配置（jsonデータをhtmlに）
 	for (var i in contentData) {
 		var content = document.createElement("a");
+		var contentChild = document.createElement("div");
 		var tagString = "";
 		for (var j in contentData[i]["tag"]) tagString += (`#${contentData[i]["tag"][j]} `);
 		content.setAttribute("class", "content whiteLink");
 		content.setAttribute("href", "javascript:void(0);");
 		content.setAttribute("onclick", `loadhtml("${contentData[i]["path"]}", "${contentData[i]["title"]}");`);
-		content.insertAdjacentHTML("beforeend", `<img src="${contentData[i]["image"]}" onerror="this.src='./img/default.jpg';" alt="${contentData[i]["title"]}">`);
-		content.insertAdjacentHTML("beforeend", `<div class="contentCard"><h1>${contentData[i]["title"]}</h1><h4>${contentData[i]["date"]}</h4><p>${tagString}</p></div>`);
+		contentChild.setAttribute("class", "contentChild");
+		contentChild.insertAdjacentHTML("beforeend", `<img src="${contentData[i]["image"]}" onerror="this.src='./img/default.jpg';" alt="${contentData[i]["title"]}">`);
+		contentChild.insertAdjacentHTML("beforeend", `<div class="contentCard"><h1>${contentData[i]["title"]}</h1><h4>${contentData[i]["date"]}</h4><p>${tagString}</p></div>`);
+		content.appendChild(contentChild);
 		doc_content_box.appendChild(content);
 	}
 
