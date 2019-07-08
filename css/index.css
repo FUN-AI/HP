@@ -72,7 +72,7 @@
 
 .content:hover {
 	opacity: 0.6;
-	transform: scale(0.98);
+	/*transform: scale(0.98);*/
 }
 
 #controller_top {
