@@ -45,7 +45,7 @@ window.addEventListener("DOMContentLoaded", function () {
 // コンテンツを閉じる
 function delWindow() {
 	// URL書き換え
-	window.history.pushState(null, null, `${location.pathname}?id=works`);
+	window.history.replaceState(null, null, `${location.pathname}?id=works`);
 
 	// コンテンツを非表示、スクロールの開放
 	document.getElementById("content_base").style = "none";
@@ -93,7 +93,7 @@ function loadhtml(path, title) {
 	contentWindow("Now Loading...", false);
 
 	// URL書き換え
-	window.history.pushState(null, null, `${location.pathname}?content=${title}`);
+	window.history.replaceState(null, null, `${location.pathname}?content=${title}`);
 
 	// コンテンツの読み込み（無名配列？的な？わかりにくい...）
 	var xhr = new XMLHttpRequest();
