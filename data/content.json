@@ -1,5 +1,14 @@
 [
 	{
+		"title": "2019年度活動まとめ",
+		"date": "2019/07",
+		"path": "./html/2019_zenkimatome.html",
+		"image": "./img/2019_zenkimatome.jpg",
+		"tag": [
+			"まとめ"
+		]
+	},
+	{
 		"title": "サークル内ブロック崩し発表会",
 		"date": "2019/06",
 		"path": "./html/2019_funaiblock.html",
