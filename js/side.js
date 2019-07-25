@@ -18,9 +18,7 @@ function OnLinkClick(targetStr) {
 	targetStrBefore = targetStr;
 
 	// URLの変更
-	if (targetName[targetStr] == "top") {
-		window.history.pushState(null, null, `${location.pathname}`);
-	} else {
-		window.history.pushState(null, null, `${location.pathname}?id=${targetName[targetStr]}`);
-	}
+	var addID = "";
+	if (targetName[targetStr] != "top") addID = `?id=${targetName[targetStr]}`;
+	window.history.replaceState(null, null, `${location.pathname}${addID}`);
 }

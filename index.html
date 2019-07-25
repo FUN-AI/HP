@@ -3,11 +3,11 @@
 <!-- JavaScriptつかって表示されていないデータ読み出せるって？そもそもソースコードもデータも全部GitHubに上がってるんだよなぁ... -->
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="theme-color" content="#444444">
-    <title>FUN-AI</title>
-    <link rel="shortcut icon" href="./img/icon-mini.gif">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#444444">
+	<title>FUN-AI</title>
+	<link rel="shortcut icon" href="./img/icon-mini.gif">
 	<link rel="stylesheet" href="./css/oldBrowser.css" type="text/css">
 	<link rel="stylesheet" href="./css/base.css" type="text/css">
 	<link rel="stylesheet" href="./css/index.css" type="text/css">
@@ -24,51 +24,86 @@
 
 <body>
 
-    <div id="logo">
-        <h1>FUN AI</h1>
-    </div>
-
-    <!-- 各コンテンツはひとつずつ表示する（選択されていないものは非表示） -->
-    <div id="main">
-        <div id="top">
-            <h1>FUN AI</h1>
-			<hr>
-			<p>このページは現在制作中です。内容は変更される可能性があります。</p>
-			<hr>
-            <h2>テストメッセージ</h2>
-            <p>この中に、AIに興味がある人、数学好き、LinuxUser、ガチプロがいたら、あたしのところに来なさい。以上</p>
-        </div>
-
-        <div id="works">
-
-            <div id="controller_top">
-                <h1>Works</h1>
-                <div class="controller">
-                </div>
-                <hr>
-            </div>
-
-            <div id="content_box">
-                <a class="content">表示に対応していないブラウザです。<br>JavaScriptが無効である場合は有効にしてください。</a>
-            </div>
-
-            <div id="controller_bottom">
-                <hr>
-                <div class="controller">
-                </div>
-            </div>
-
-        </div>
-
-        <div id="about">
-            <h1>About</h1>
-			<hr>
-			<h2>FUN AIとは？</h2>
-			<p>公立はこだて未来大学人工知能サークルです。</p>
-        </div>
+	<div id="logo">
+		<h1>FUN AI</h1>
 	</div>
-	
-    <div id="side">		
+
+	<!-- 各コンテンツはひとつずつ表示する（選択されていないものは非表示） -->
+	<div id="main">
+		<div id="top">
+			<h1>FUN AI</h1>
+			<hr class="bold">
+			<p>※このページは現在制作中です。内容は変更される可能性があります。</p>
+			<hr>
+			<h2>FUN AIの目的</h2>
+			<p>
+				人工知能に興味を持った学部生達が学部４年になるまでに基本的な知識や実装力を得る。
+				また機械学習をともに勉強する仲間を見つけ、歩む事を目的としたサークルです。
+			</p>
+		</div>
+
+		<div id="works">
+
+			<div id="controller_top">
+				<h1>Works</h1>
+				<div class="controller">
+				</div>
+				<hr class="bold">
+			</div>
+
+			<div id="content_box">
+				<a class="content">表示に対応していないブラウザです。<br>JavaScriptが無効である場合は有効にしてください。</a>
+			</div>
+
+			<div id="controller_bottom">
+				<hr class="bold">
+				<div class="controller">
+				</div>
+			</div>
+
+		</div>
+
+		<div id="about">
+			<h1>About</h1>
+			<hr class="bold">
+			<h2>FUN AIとは？</h2>
+			<ul>
+				<li>正式名称：公立はこだて未来大学人工知能サークル</li>
+				<li>設立：2018年</li>
+				<li>活動内容：人工知能に関する探求</li>
+			</ul>
+			<hr>
+
+			<h2>活動の詳細</h2>
+			<ul>
+				<li>場所：大学内サークル室７、空き教室</li>
+				<li>時間：週2回放課後1.5時間 (前期・後期で部員の時間割により活動時間が変わります)</li>
+				<li>内容：輪講、プログラミング実習</li>
+			</ul>
+			<hr>
+
+			<h2>輪講</h2>
+			<p>
+				論文の要約をサークルメンバに発表する会を実施しています。
+				論文の選考基準として、「人工知能」に関係するならば全て可としています。(例：機械学習, 数理統計, 経済学, etc..)
+				それによって様々な面から人工知能開発について考えられる様になる事を目的としています。
+			</p>
+			<hr>
+
+			<h2>プログラミング実習</h2>
+			<p>
+				基本的には深層学習プログラミングの学習(1h)と授業プログラミングの復習(0.5h)を行っています。
+				基本的なモデルから最近のモデルまでの実装を体験する事で自身が構築したいモデルの実装を可能にする事を目的としています。
+				また授業復習用の時間も確保する事によってプログラミングへの親しみをもつ事を目的としています。
+			</p>
+			<hr>
+
+			<h2>他の活動</h2>
+			<p>文化祭への出店や展示, 部内プログラミング大会, etc...</p>
+		</div>
+	</div>
+
+	<div id="side">
 		<div class="button">
 			<a href="javascript:void(0);" onclick="OnLinkClick('side_top');">
 				<span class="whiteLink now" id="side_top">TOP</span>
@@ -87,13 +122,13 @@
 				<p>FUN AIについて</p>
 			</a>
 		</div>
-    </div>
+	</div>
 
-    <div id="foot">
-        <p>made by FUN AI</p>
-    </div>
+	<div id="foot">
+		<p>made by FUN AI</p>
+	</div>
 
-    <!-- コンテンツページ（window.htmlから） -->
+	<!-- コンテンツページ（window.htmlから） -->
 	<div id="content_base">
 		<div id="content_frame">
 			<div id="window_title">
@@ -110,10 +145,10 @@
 		</div>
 	</div>
 
-    <!-- このブラウザはサポートしていませんの表示。 -->
-    <div id="oldBrowser">
-        <p>最新のブラウザに更新してください。<br>※IEはサポートしていません。</p>
-    </div>
+	<!-- このブラウザはサポートしていませんの表示。 -->
+	<div id="oldBrowser">
+		<p>最新のブラウザに更新してください。<br>※IEはサポートしていません。</p>
+	</div>
 
 </body>
 
