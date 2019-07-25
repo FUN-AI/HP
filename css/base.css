@@ -28,6 +28,13 @@ body {
 hr {
 	background-color: var(--ColorbgFoot);
 	border: none;
+	height: 1px;
+	margin: 1.4em 0;
+}
+
+hr.bold {
+	background-color: var(--ColorbgFoot);
+	border: none;
 	height: 3px;
 	margin: 1.4em 0;
 }
