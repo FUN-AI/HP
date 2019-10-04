@@ -110,7 +110,6 @@
 .content {
 	min-width: 256px;
 	min-height: 256px;
-	width: auto;
 	margin: 4px;
 	box-sizing: border-box;
 	background-color: var(--ColorbgFoot);
