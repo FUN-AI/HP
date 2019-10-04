@@ -71,8 +71,8 @@
 }
 
 .content:hover .contentChild{
-	opacity: 0.6;
-	transform: scale(0.98);
+	opacity: 0.4;
+	/*transform: scale(0.98);*/
 }
 
 .contentChild {
