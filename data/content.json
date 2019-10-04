@@ -1,9 +1,28 @@
 [
-	{
+    {
 		"title": "2019年度 未来祭",
 		"date": "2019/10",
 		"path": "./html/2019_miraisai1.html",
 		"image": "./img/DSC_0604.jpeg",
+		"tag": [
+			"お知らせ",
+			"未来祭"
+		]
+	},
+    {
+		"title": "2019年度前期 活動まとめ",
+		"date": "2019/07",
+		"path": "./html/2019_log_zenki.html",
+		"image": "./img/2019_log_zenki.jpg",
+		"tag": [
+			"まとめ"
+		]
+	},
+	{
+		"title": "サークル内ブロック崩し発表会",
+		"date": "2019/06",
+		"path": "./html/2019_funaiblock.html",
+		"image": "./img/2019_funblock.jpg",
 		"tag": [
 			"お知らせ",
 			"未来祭"
