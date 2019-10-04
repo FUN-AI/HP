@@ -9,12 +9,12 @@ var targetName = {
 
 function OnLinkClick(targetStr) {
 	// #mainの表示を切り替える
+	document.getElementById("main").style.height = "auto";
 	document.getElementById(targetStrBefore).classList.remove("now");
 	document.getElementById(targetName[targetStrBefore]).style.display = "none";
 	document.getElementById(targetStr).classList.add("now");
 	document.getElementById(targetName[targetStr]).style.display = "block";
 	scrollTo(0, 0);
-	document.getElementById("main").style.height = "100%";
 	targetStrBefore = targetStr;
 
 	// URLの変更

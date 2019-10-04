@@ -1,6 +1,7 @@
 @media (max-width: 599px) {
 	*{
 		font-size: large;
+		min-height: 100vh;
 	}
 
 	h1 {

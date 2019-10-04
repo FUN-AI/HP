@@ -53,7 +53,7 @@
 /* mainの設定 */
 
 #main {
-	min-height: 100%;
+	/*min-height: 100%;*/
 	background-color: var(--ColorbgMain);
 	box-sizing: border-box;
 	border-top: 12px solid var(--ColorbgSide);
@@ -70,9 +70,15 @@
 	font-size: x-large;
 }
 
-.content:hover {
-	opacity: 0.6;
-	transform: scale(0.98);
+.content:hover .contentChild{
+	opacity: 0.4;
+	/*transform: scale(0.98);*/
+}
+
+.contentChild {
+	height: 100%;
+	width: 100%;
+	position: absolute;
 }
 
 #controller_top {
