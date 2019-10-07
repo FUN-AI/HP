@@ -20,7 +20,6 @@ body {
 	background-color: var(--ColorbgSide);
 	padding: 0px;
 	margin: 0px;
-	min-height: 100%;
 	font-weight: bold;
 	word-break: break-all; /* URLや長い文章によるレイアウト崩壊を防ぐため */
 }
