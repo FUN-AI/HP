@@ -39,7 +39,7 @@
 		]
 	},
 	{
-		"title": "2019活動予定",
+		"title": "2019年度 活動予定",
 		"date": "2019/04",
 		"path": "./html/2019_yotei.html",
 		"image": "./img/19_0509_1.jpg",
@@ -49,7 +49,7 @@
 		]
 	},
 	{
-		"title": "2019年新入生歓迎会",
+		"title": "2019年度 新入生歓迎会",
 		"date": "2019/04",
 		"path": "./html/2019_shinkan.html",
 		"image": "./img/19_0415_1.jpg",
@@ -59,7 +59,7 @@
 		]
 	},
 	{
-		"title": "2019年度三役紹介",
+		"title": "2019年度 三役紹介",
 		"date": "2019/04",
 		"path": "./html/2019_staff_introduction.html",
 		"image": "./",
@@ -69,7 +69,7 @@
 		]
 	},
 	{
-		"title": "2018年度活動まとめ",
+		"title": "2018年度 活動まとめ",
 		"date": "2019/03",
 		"path": "./html/2018_activity_log.html",
 		"image": "./",
