@@ -78,7 +78,7 @@
 .contentChild {
 	height: 100%;
 	width: 100%;
-	position: absolute;
+	/*position: absolute;*/
 }
 
 #controller_top {
@@ -117,10 +117,10 @@
 	position: relative;
 	text-decoration: none;
 	box-sizing: border-box;
-	display: inline;
 	text-align: center;
 	border: 1px solid var(--ColorTextMain);
 	border-bottom-left-radius: 48px;
+	white-space: nowrap;
 }
 
 .content img {
@@ -144,7 +144,6 @@
 }
 
 .content h1, .content h4, .content p {
-	overflow: hidden;
 	position: relative;
 	margin: 0;
 	padding: 0 1em 4px;
